@@ -6,12 +6,12 @@ import (
 	"log"
 )
 
-func main() 
+func main() {
 	router := mux.NewRouter()
 	router.HandleFunc("/", hateSpeech.Index)
 	fmt.Println("Hate Speech Detector Application using Go")
-	server := http.Server {
-		Addr: "127.0.0.1:8000",
+	server := http.Server{
+		Addr:    "127.0.0.1:8000",
 		Handler: router,
 	}
 
