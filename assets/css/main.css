@@ -1,0 +1,53 @@
+body {
+    background: #000;
+}
+
+footer {
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    color: #ddd;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.div-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#supposed-hateSpeech {
+    resize: none;
+    width: 300px;
+    border: none;
+    background-color: #fff;
+    font-size: 30px;
+    color: #000;
+    margin: 0 auto 10px;
+    transition: ease-in-out, width .35s ease-in;
+    text-align: center;
+}
+
+
+#supposed-hateSpeech:focus{
+    width: 500px;
+}
+
+
+#analyze-button {
+    background-color: #08a7a7;
+    color: #000;
+    border: none;
+    padding: 10px 10px;
+}
+
+#analyze-button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+}
