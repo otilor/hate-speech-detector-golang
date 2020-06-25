@@ -19,3 +19,17 @@ footer {
     transform: translate(-50%, -50%);
 }
 
+#analyze-button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 10px;
+}
+
+#analyze-button:hover {
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+}
