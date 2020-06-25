@@ -19,6 +19,24 @@ footer {
     transform: translate(-50%, -50%);
 }
 
+#supposed-hateSpeech {
+    resize: none;
+    width: 300px;
+    border: none;
+    background-color: #000;
+    font-size: 30px;
+    color: #fff;
+    margin: 0 auto 10px;
+    transition: ease-in-out, width .35s ease-in;
+    text-align: center;
+}
+
+
+#supposed-hateSpeech:focus{
+    width: 500px;
+}
+
+
 #analyze-button {
     background-color: #fff;
     color: #000;
