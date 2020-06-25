@@ -2,13 +2,12 @@ body {
     background: crimson;
 }
 
-#hatespeechInput {
-    width: 20vh;
-    height: 50vh;
-    position: relative;
-}
-
-.center-div {
-    top: 50%;
-    left: 50%;
+footer {
+    left: 0;
+    bottom: 0;
+    background-color: #000;
+    color: #ddd;
+    position: fixed;
+    width: 100%;
+    text-align: center;
 }
