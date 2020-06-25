@@ -1,3 +1,14 @@
 body {
     background: crimson;
 }
+
+#hatespeechInput {
+    width: 20vh;
+    height: 50vh;
+    position: relative;
+}
+
+.center-div {
+    top: 50%;
+    left: 50%;
+}
