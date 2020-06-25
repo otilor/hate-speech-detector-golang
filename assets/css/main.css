@@ -21,6 +21,7 @@ footer {
 
 #supposed-hateSpeech {
     resize: none;
+    border-radius: 10px;
     width: 300px;
     border: none;
     background-color: #fff;
