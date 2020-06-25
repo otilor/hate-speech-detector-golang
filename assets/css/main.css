@@ -1,5 +1,5 @@
 body {
-    background: crimson;
+    background: #000;
 }
 
 footer {
@@ -23,9 +23,9 @@ footer {
     resize: none;
     width: 300px;
     border: none;
-    background-color: #000;
+    background-color: #fff;
     font-size: 30px;
-    color: #fff;
+    color: #000;
     margin: 0 auto 10px;
     transition: ease-in-out, width .35s ease-in;
     text-align: center;
@@ -38,7 +38,7 @@ footer {
 
 
 #analyze-button {
-    background-color: #fff;
+    background-color: #08a7a7;
     color: #000;
     border: none;
     padding: 10px 10px;
