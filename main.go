@@ -16,7 +16,8 @@ func main() {
 	router.PathPrefix("/assets").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("assets"))))
 
 	// Handle routes
-	router.HandleFunc("/", hateSpeech.Index)
+	router.HandleFunc("/", hateSpeech.Index).Methods("GET")
+	router.HandleFunc("/", hateSpeech.ProcessSpeech).Methods("POST")
 
 	// Console message
 	fmt.Println("Hate Speech Detector Application using Go")
